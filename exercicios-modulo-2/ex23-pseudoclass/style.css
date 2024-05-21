@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+
+ /* aqui estou pedindo especificamente para usar o paragrafo dentro da div para não aparecer na tela com a tag display:none */
+div > p {
+    display: none;
+}
+/* aqui eu peço para ele voltar aparecer com dusplay: block e so aparecera qunado o mouse passar por cima da div com o :houver*/
+div:hover > p{
+    display: block;
+    background-color: red;
+    color: white;
+}
+
+h1:active{
+    color: greenyellow;
+}
